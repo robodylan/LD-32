@@ -10,6 +10,7 @@ namespace LD32
     {
         static void Main(string[] args)
         {
+            GameInstance gameInstance = new GameInstance();
         }
     }
 }
