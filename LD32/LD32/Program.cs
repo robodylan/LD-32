@@ -10,9 +10,12 @@ namespace LD32
     {
         static void Main(string[] args)
         {
+            int i = 0;
             while (true)
             {
-                GameInstance gameInstance = new GameInstance();
+                GameInstance gameInstance = new GameInstance(i);
+                Console.WriteLine(GameInstance.Kills);
+                i = GameInstance.Kills;
             }
         }
     }
